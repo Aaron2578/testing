@@ -1,0 +1,13 @@
+.container {
+    background: #000;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container>.shape {
+    background: red;
+    padding: 10px 60px;
+}
