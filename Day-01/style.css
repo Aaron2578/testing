@@ -7,7 +7,26 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.container>.shape {
+.shape {
     background: red;
     padding: 10px 60px;
+    color: white;
+}
+.demo {
+    background: blue;
+    padding: 10px 60px;
+    color:white
+}
+button {
+    background: #78b92e;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+}
+button:hover {
+    border: 3px solid #ffff;
+    color: #000;
+    border-radius: 10px;
 }
